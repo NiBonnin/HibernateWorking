@@ -19,7 +19,19 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       GenericDAO clienteDAO = new GenericDAO();
+       
+        /*
+        
+        FOR THIS TO WORK YOU NEED TO ADD THE LIBRARIES
+            -SPRING FRAMEWORK
+            -HIBERNATE
+            -PERSISTENCE
+            -JSTL
+            -mysql-connector-java-5.1.23-bin.jar
+        
+        
+        */
+        GenericDAO clienteDAO = new GenericDAO();
 
         //Creamos tes instancias de Contacto  (String nombre, String direccion, int codigoPostal, String telefono, String cuit)
         Cliente cliente1 = new Cliente("Pedro", "dr clark 385","2466", "3260", 86 ,15531.0 ,465.0); 
