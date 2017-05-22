@@ -24,6 +24,7 @@ public class Main {
         
         FOR THIS TO WORK YOU NEED TO ADD THE LIBRARIES
             -SPRING FRAMEWORK
+        
             -HIBERNATE
             -PERSISTENCE
             -JSTL
